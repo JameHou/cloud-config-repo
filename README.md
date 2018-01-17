@@ -1,1 +1,1 @@
-# cloud-config-repo
+# cloud-config-repo 配置中心
