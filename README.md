@@ -1,3 +1,2 @@
-# cloud-config-repo 配置中心
-- lasfjla 
-- slfjal
+# cloud-config-repo 统一配置中心
+ 
