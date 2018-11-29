@@ -1,1 +1,13 @@
 name: my name is test yml file
+
+eureka:
+  client:
+    registry-fetch-interval-seconds: 20
+    serviceUrl:
+      defaultZone:  http://peer1:1111/eureka/,http://peer2:1112/eureka/
+  instance:
+    status-page-url-path: ${server.servlet.context-path:}/swagger-ui.html
+    home-page-url-path: ${server.servlet.context-path:}/
+    prefer-ip-address: true
+    lease-expiration-duration-in-seconds: 30
+    lease-renewal-interval-in-seconds: 10
